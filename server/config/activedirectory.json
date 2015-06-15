@@ -1,0 +1,13 @@
+{
+	"main": {
+		"url": "ldap://192.168.1.254",
+    	"baseDN": "dc=ad,dc=i-bs,dc=pl",
+    	"username": "test1@ad.i-bs.pl",
+    	"password": "Password12",
+    	"attributes": {
+	    	"user": ["departmentNumber", "department", "title", "userPrincipalName", "sAMAccountName", "mail", "employeeID", "sn", "givenName", "initials", "cn", "displayName", "comment", "description"],
+        	"group": ["cn"]
+    	}
+    },
+    "domainName": "@ad.i-bs.pl"
+}
